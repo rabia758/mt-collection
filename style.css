@@ -292,6 +292,9 @@ ul p {
     .nav-search {
         width: 100%;
     }
+   .nav-search , .nav-sigin,.nav-return, .nav-cart, .panel{
+    font-size: 16px;
+   }
 }
 
 @media (max-width: 480px) {
@@ -311,6 +314,11 @@ ul p {
         font-size: 0.75rem;
         width: 90%;
     }
+    .nav-search , .nav-sigin,.nav-return, .nav-cart, .panel{
+        font-size: 14px;
+       }
+       .footer-panel2{
+        font-size: 15px;
+       }
+    
 }
-
-
