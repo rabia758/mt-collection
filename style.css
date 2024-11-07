@@ -308,11 +308,14 @@ ul p {
 
     .hero-section {
         height: 300px;
+        margin-top: 5px;
+    justify-content: flex-start;
     }
 
     .hero-msg {
         font-size: 0.75rem;
         width: 90%;
+        justify-content: center;
     }
     .nav-search , .nav-sigin,.nav-return, .nav-cart, .panel{
         font-size: 14px;
@@ -320,5 +323,19 @@ ul p {
        .footer-panel2{
         font-size: 15px;
        }
+       .panel-ops,.panel-deals{
+        font-size: 12px;
+        padding-left: 5px;
+        
+       }
+       .panel{
+         justify-content: flex-start;
+         margin-top: 5px;
+         padding-left: 5px;
+       }
+       .box{
+        height: 450px;
+       }
+       }
     
-}
+
